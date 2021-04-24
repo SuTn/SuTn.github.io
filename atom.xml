@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sutn.github.io/</id>
-    <title>Gridea</title>
-    <updated>2021-04-24T04:35:52.689Z</updated>
+    <title>Suto</title>
+    <updated>2021-04-24T04:44:27.230Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sutn.github.io/"/>
     <link rel="self" href="https://sutn.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://sutn.github.io/images/avatar.png</logo>
     <icon>https://sutn.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, Suto</rights>
     <entry>
         <title type="html"><![CDATA[腾讯暑期实习一轮复试复盘]]></title>
         <id>https://sutn.github.io/post/腾讯暑期实习一轮复试复盘/</id>
