@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sutn.github.io/</id>
     <title>Suto</title>
-    <updated>2021-04-24T04:45:36.160Z</updated>
+    <updated>2021-04-24T06:10:59.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sutn.github.io/"/>
     <link rel="self" href="https://sutn.github.io/atom.xml"/>
@@ -44,17 +44,17 @@
 <p>物理层…………………网络：中继器，集线器、网线、HUB</p>
 <h3 id="2每个层有哪些协议说一下"><strong>2.每个层有哪些协议，说一下。</strong></h3>
 <p>HTTP  TCP UDP</p>
-<h2 id="3说一下tcp协议">3.说一下TCP协议</h2>
-<h2 id="4说一下http协议-http10-http11-http20">4.说一下HTTP协议  HTTP1.0  HTTP1.1 HTTP2.0</h2>
-<h2 id="5tcp中syn发送的是什么">5.TCP中syn发送的是什么</h2>
-<h2 id="6说一下java的io-nio-模型">6.说一下java的IO NIO 模型</h2>
-<h2 id="7使用tcp协议设计一个发送信息的功能你会考虑哪些方面">7.使用TCP协议设计一个发送信息的功能，你会考虑哪些方面</h2>
-<h2 id="8-使用过的linux命令有哪些">8. 使用过的linux命令有哪些</h2>
-<h2 id="9使用过的git命令有哪些">9.使用过的git命令有哪些</h2>
-<h2 id="10说下一linux进程和线程线程之间如何通信">10.说下一linux进程和线程，线程之间如何通信。</h2>
-<h2 id="11java垃圾回收机制">11.java垃圾回收机制</h2>
-<h2 id="12使用过哪些数据库一些数据库的知识答不上来mysql的层级体系权限管理">12.使用过哪些数据库，一些数据库的知识，答不上来，mysql的层级体系，权限管理</h2>
-<h2 id="13然后给了一道笔试题leetcode困难面试官说不难直接崩了-在线写">13.然后给了一道笔试题，leetcode困难，面试官说不难，直接崩了。在线写</h2>
+<h3 id="3说一下tcp协议">3.说一下TCP协议</h3>
+<h3 id="4说一下http协议-http10-http11-http20">4.说一下HTTP协议  HTTP1.0  HTTP1.1 HTTP2.0</h3>
+<h3 id="5tcp中syn发送的是什么">5.TCP中syn发送的是什么</h3>
+<h3 id="6说一下java的io-nio-模型">6.说一下java的IO NIO 模型</h3>
+<h3 id="7使用tcp协议设计一个发送信息的功能你会考虑哪些方面">7.使用TCP协议设计一个发送信息的功能，你会考虑哪些方面</h3>
+<h3 id="8-使用过的linux命令有哪些">8. 使用过的linux命令有哪些</h3>
+<h3 id="9使用过的git命令有哪些">9.使用过的git命令有哪些</h3>
+<h3 id="10说下一linux进程和线程线程之间如何通信">10.说下一linux进程和线程，线程之间如何通信。</h3>
+<h3 id="11java垃圾回收机制">11.java垃圾回收机制</h3>
+<h3 id="12使用过哪些数据库一些数据库的知识答不上来mysql的层级体系权限管理">12.使用过哪些数据库，一些数据库的知识，答不上来，mysql的层级体系，权限管理</h3>
+<h3 id="13然后给了一道笔试题leetcode困难面试官说不难直接崩了-在线写">13.然后给了一道笔试题，leetcode困难，面试官说不难，直接崩了。在线写</h3>
 <p>https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/</p>
 <p>面试官一直提示引导你，本人太菜，写不出来。面试官会问算法复杂度。</p>
 <p>其他的不记得了，总共大概一个小时左右，面试官人挺好的，就是自己太菜了。记录一下。</p>
