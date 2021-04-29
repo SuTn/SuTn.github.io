@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>关于 | Suto</title>
+<title>凉凉的京东一面 | Suto</title>
 
 <link rel="shortcut icon" href="https://sutn.github.io//favicon.ico?v=1619687145122">
 
@@ -202,27 +202,67 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    关于
+                    凉凉的京东一面
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2019-01-25 ·
+                        · 2021-04-29 ·
                     </time>
+                    
+                        <a href="https://sutn.github.io/tag/--_Tg5K2F/" class="post-tags">
+                            # 面试
+                        </a>
                     
                 </div>
                 <div class="post-content">
-                    <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
+                    <h1 id="凉凉的京东一面">凉凉的京东一面</h1>
+<p>相约了4月28日下午4点的面试，面试官因为有事迟到了半小时。</p>
+<p>首先上来是自我介绍，大概介绍了一下，因为自己不是科班，是自动化专业，面试的java岗位，面试官也没抱太大希望，上来就问我学的是神经网络的，为什么面java，还有就是自己的规划，确定要走java这条路吗，反正胡扯了一波，然后开始问问题。</p>
+<h2 id="1说一下hashmap吧">1.说一下hashmap吧</h2>
+<p>大概说了一下hashmap hashtable   线程安全与否</p>
+<p>介绍了底层使用数据+链表（红黑树）</p>
+<h2 id="2接着就深入为什么使用红黑树自己太菜没看过回答不上来">2.接着就深入，为什么使用红黑树，自己太菜，没看过，回答不上来</h2>
+<p>查了一下：</p>
+<p>在JDK1.6，JDK1.7中，HashMap采用位桶+链表实现，即使用链表处理冲突，同一hash值的链表都存储在一个链表里。但是当位于一个桶中的元素较多，即hash值相等的元素较多时，通过key值依次查找的效率较低。而JDK1.8中，HashMap采用位桶+链表+红黑树实现，当链表长度超过阈值（8）时，将链表转换为红黑树，这样大大减少了查找时间。</p>
+<h2 id="3对线程池了解吗-说一下线程池为什么使用他">3.对线程池了解吗  说一下线程池，为什么使用他</h2>
+<p>线程池实现线程复用，极大的提升了资源的利用率，大概说了一下线程池的工作原理，核心线程、等待队列、最大线程数、拒绝该任务等</p>
+<h2 id="4-接着深入问说一下这个等待队列">4. 接着深入问说一下这个等待队列？</h2>
+<p>听到这个问题有点懵逼，不知道该说一下什么  查了一下<br>
+https://segmentfault.com/a/1190000014417569</p>
+<h2 id="5-线程池的决绝策略">5. 线程池的决绝策略</h2>
+<p>不太了解</p>
+<p>说说线程池的拒绝策略</p>
+<pre><code>当请求任务不断的过来，而系统此时又处理不过来的时候，我们需要采取的策略是拒绝服务。RejectedExecutionHandler接口提供了拒绝任务处理的自定义方法的机会。在ThreadPoolExecutor中已经包含四种处理策略。
+
+- AbortPolicy策略：该策略会直接抛出异常，阻止系统正常工作。
+
+- CallerRunsPolicy 策略：只要线程池未关闭，该策略直接在调用者线程中，运行当前的被丢弃的任务。
+
+- DiscardOleddestPolicy策略： 该策略将丢弃最老的一个请求，也就是即将被执行的任务，并尝试再次提交当前任务。
+
+- DiscardPolicy策略：该策略默默的丢弃无法处理的任务，不予任何处理。
+
+除了JDK默认提供的四种拒绝策略，我们可以根据自己的业务需求去自定义拒绝策略，自定义的方式很简单，直接实现RejectedExecutionHandler接口即可
+</code></pre>
+<h2 id="6问了一下mysql索引">6.问了一下mysql索引</h2>
+<p>只知道使用了B-tree ,没能详细的回答。</p>
+<h2 id="7了解网络不说一下tcp的三次握手">7.了解网络不，说一下tcp的三次握手</h2>
+<p>说了一下 ，没有深问</p>
+<h2 id="8笔试第二道题没有ac你有没有之后想过">8.笔试第二道题没有ac，你有没有之后想过。</h2>
+<p>笔试第二道当时都不太记得了，就说了没有。</p>
+<p>总体感觉就是对于非计算机专业的学生，感觉对你能力存在一种质疑。也没具体问啥，果然凉凉，还是自己太菜，哈哈，体验一下，秋招再战。</p>
 
                 </div>
             </article>
         </div>
 
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://sutn.github.io/post/腾讯暑期实习一轮复试复盘/" class="post-title gt-a-link">
+                    腾讯暑期实习一轮复试复盘
+                </a>
+            </div>
         
 
         
